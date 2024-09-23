@@ -17,8 +17,9 @@ applications:
   - social-citizen-destination
   - social-citizen-xsuaa
   env:
-    deploymentUrl: "_DEPLOYMENT_URL_AI_CORE_" # something like this /v2/inference/deployments/d8919eac2fb5c98b5/chat/completions?api-version=2023-05-15
-
+  # doin deployment url (gpt-4)
+    # deploymentUrl: "_DEPLOYMENT_URL_AI_CORE_" # something like this /v2/inference/deployments/d8919eac2fb5c98b5/chat/completions?api-version=2023-05-15
+    deploymentUrl: "/v2/inference/deployments/d80f694f0756d787/chat/completions?api-version=2023-05-15"
 # -----------------------------------------------------------------------------------
 # HANA Database Content Deployer App
 # -----------------------------------------------------------------------------------
